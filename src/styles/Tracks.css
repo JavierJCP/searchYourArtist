@@ -1,0 +1,57 @@
+.album__poster {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto 3rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btn__back {
+  position: absolute;
+  top: 0rem;
+}
+
+.album__name {
+  font-size: 64px;
+}
+
+.album__title {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.tracks {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.track {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.track__name {
+  cursor: pointer;
+  padding-right: 1rem;
+  border-radius: 0.3rem;
+  text-align: left;
+}
+
+.track__name:hover {
+  text-decoration: underline;
+}
